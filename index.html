@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Newaz Mursalin</title>
+
+<!-- Font Awesome -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+
+    /* Background Image + Dark Overlay */
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+                url('bg.jpg') center/cover no-repeat fixed;
+}
+
+/* Cover */
+.cover {
+    height: 350px;
+    background: url('cover.jpg') center/cover no-repeat;
+}
+
+/* Profile */
+.profile {
+    text-align: center;
+    margin-top: -60px;
+}
+
+.profile img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+h1 {
+    margin: 10px 0 5px;
+}
+
+p {
+    color: #ccc;
+}
+
+/* Section Title */
+.section-title {
+    text-align: center;
+    margin-top: 25px;
+    color: #aaa;
+}
+
+/* Card */
+.card {
+    width: 85%;
+    max-width: 360px;
+    margin: 10px auto;
+    padding: 14px;
+    border-radius: 14px;
+
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    text-decoration: none;
+    color: white;
+
+    /* Glass Effect */
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.1);
+
+    transition: 0.3s;
+}
+
+/* Icon */
+.card i, .card svg {
+    font-size: 22px;
+}
+
+/* Hover Glow */
+.card:hover {
+    box-shadow: 0 0 15px #ff416c, 0 0 30px #00f7ff;
+}
+
+.card:hover i {
+    filter: drop-shadow(0 0 5px currentColor);
+}
+
+/* Click */
+.card:active {
+    transform: scale(0.97);
+}
+
+/* Social Colors */
+.fa-facebook { color: #1877f2; }
+
+.fa-instagram {
+    background: linear-gradient(45deg, #f9ce34, #ee2a7b, #6228d7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fa-youtube { color: #ff0000; }
+
+.fa-linkedin { color: #0a66c2; }
+
+.fa-x-twitter { color: #ffffff; }
+
+.fa-threads { color: #ffffff; }
+
+.fa-whatsapp { color: #25d366; }
+
+.fa-pinterest { color: #e60023; }
+
+.fa-telegram { color: #229ed9; }
+
+/* Mobile */
+@media (max-width: 600px) {
+    .cover {
+        height: 160px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<!-- Cover -->
+<div class="cover"></div>
+
+<!-- Profile -->
+<div class="profile">
+    <img src="profile.jpg">
+    <h1>Newaz Mursalin</h1>
+    <p>Graphic Designer & Social Media Expert</p>
+</div>
+
+<!-- Contact -->
+<br>
+  <b><div class="section-title">Contact</div></b>
+
+<a class="card" href="tel:+8801945258989">
+    <i class="fa-solid fa-phone"></i>
+    +8801945258989
+</a>
+
+<a class="card" href="mailto:newazmursalin@gmail.com">
+    <i class="fa-solid fa-envelope"></i>
+    newazmursalin@gmail.com
+</a>
+
+<a class="card" href="https://newazmursalin17.github.io" target="_blank">
+    <i class="fa-solid fa-globe"></i>
+    www.newazmursalin.GitHub.io
+</a>
+
+<!-- Custom Location Icon -->
+<a class="card" href="https://maps.google.com/?q=Dhaka,Bangladesh" target="_blank">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="#ff0000">
+        <path d="M12 2C8 2 5 5 5 9c0 5.5 7 13 7 13s7-7.5 7-13c0-4-3-7-7-7zm0 9.5A2.5 2.5 0 1 1 12 6a2.5 2.5 0 0 1 0 5.5z"/>
+    </svg>
+    Araihazar, Narayanganj, Dhaka, Bangladesh.
+</a>
+
+<!-- Social Media -->
+<br>
+  <b><div class="section-title">Social Media</div></b>
+
+<a class="card" href="https://facebook.com/share/14gvFZwdJ4w/" target="_blank">
+    <i class="fa-brands fa-facebook"></i> Facebook
+</a>
+
+<a class="card" href="https://instagram.com/newazmursalin_17?igsh=aGUyYWNndWQ1NWVv" target="_blank">
+    <i class="fa-brands fa-instagram"></i> Instagram
+</a>
+
+<a class="card" href="https://www.youtube.com/@newazmursalin_17" target="_blank">
+    <i class="fa-brands fa-youtube"></i> YouTube
+</a>
+
+<a class="card" href="https://www.linkedin.com/in/newazmursalin17" target="_blank">
+    <i class="fa-brands fa-linkedin"></i> LinkedIn
+</a>
+
+<a class="card" href="https://x.com/newazmursalin17" target="_blank">
+    <i class="fa-brands fa-x-twitter"></i> X (Twitter)
+</a>
+
+<a class="card" href="https://threads.com/@newazmursalin_17" target="_blank">
+    <i class="fa-brands fa-threads"></i> Threads
+</a>
+
+<a class="card" href="https://wa.link/r16s0c" target="_blank">
+    <i class="fa-brands fa-whatsapp"></i> WhatsApp
+</a>
+
+<a class="card" href="https://pin.it/4YWIGxvOT" target="_blank">
+    <i class="fa-brands fa-pinterest"></i> Pinterest
+</a>
+
+<a class="card" href="https://t.me/newazmursalin_17" target="_blank">
+    <i class="fa-brands fa-telegram"></i> Telegram
+</a>
+<br>
+<p align="center"> © 2026 Newaz Mursalin. All Rights Reserved.</p>
+
+</body>
+</html>
